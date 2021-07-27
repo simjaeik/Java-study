@@ -1,2 +1,3 @@
 # Java-study
-for Java study
+
+자바를 공부하고 문제를 푼 내용을 올리는 장소입니다.
