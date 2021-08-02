@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Solution a = new Solution();
-        int[] a1 = {1, 3, 4};
-        int[] a2 = {1,3,5};
+        int[] a1 = {3, 7};
+        int[] a2 = {2,4};
 
-        System.out.println(a.solution(5, a1, a2));
+        System.out.println(a.solution(8, a1, a2));
     }
 }
 
@@ -14,6 +14,8 @@ class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
         int idx = 0;
         int answer = n - lost.length;
+        Arrays.sort(lost);
+        Arrays.sort(reserve);
 
         for (int num : reserve){
             int find = Arrays.binarySearch(lost, num);
@@ -41,29 +43,29 @@ class Solution {
 }
 
 // 다른사람 풀이
-
-class Solution {
-    public int solution(int n, int[] lost, int[] reserve) {
-        int[] people = new int[n];
-        int answer = n;
-
-        for (int l : lost)
-            people[l-1]--;
-        for (int r : reserve)
-            people[r-1]++;
-
-        for (int i = 0; i < people.length; i++) {
-            if(people[i] == -1) {
-                if(i-1>=0 && people[i-1] == 1) {
-                    people[i]++;
-                    people[i-1]--;
-                }else if(i+1< people.length && people[i+1] == 1) {
-                    people[i]++;
-                    people[i+1]--;
-                }else
-                    answer--;
-            }
-        }
-        return answer;
-    }
-}
+//
+//class Solution {
+//    public int solution(int n, int[] lost, int[] reserve) {
+//        int[] people = new int[n];
+//        int answer = n;
+//
+//        for (int l : lost)
+//            people[l-1]--;
+//        for (int r : reserve)
+//            people[r-1]++;
+//
+//        for (int i = 0; i < people.length; i++) {
+//            if(people[i] == -1) {
+//                if(i-1>=0 && people[i-1] == 1) {
+//                    people[i]++;
+//                    people[i-1]--;
+//                }else if(i+1< people.length && people[i+1] == 1) {
+//                    people[i]++;
+//                    people[i+1]--;
+//                }else
+//                    answer--;
+//            }
+//        }
+//        return answer;
+//    }
+//}
