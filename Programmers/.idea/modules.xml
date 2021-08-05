@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AddPlusMinus/AddPlusMinus.iml" filepath="$PROJECT_DIR$/AddPlusMinus/AddPlusMinus.iml" />
       <module fileurl="file://$PROJECT_DIR$/BruteForce/BruteForce.iml" filepath="$PROJECT_DIR$/BruteForce/BruteForce.iml" />
       <module fileurl="file://$PROJECT_DIR$/GymSuit/GymSuit.iml" filepath="$PROJECT_DIR$/GymSuit/GymSuit.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewIdRec/NewIdRec.iml" filepath="$PROJECT_DIR$/NewIdRec/NewIdRec.iml" />
