@@ -16,7 +16,7 @@ class Solution {
             if(cnt%2==0){
                 answer+=num;
             }
-            else{
+            else{ 
                 answer-=num;
             }
         }
