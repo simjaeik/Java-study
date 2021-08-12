@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AddPlusMinus/AddPlusMinus.iml" filepath="$PROJECT_DIR$/AddPlusMinus/AddPlusMinus.iml" />
       <module fileurl="file://$PROJECT_DIR$/BruteForce/BruteForce.iml" filepath="$PROJECT_DIR$/BruteForce/BruteForce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CranePuppet/CranePuppet.iml" filepath="$PROJECT_DIR$/CranePuppet/CranePuppet.iml" />
       <module fileurl="file://$PROJECT_DIR$/DividerAndSum/DividerAndSum.iml" filepath="$PROJECT_DIR$/DividerAndSum/DividerAndSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/GymSuit/GymSuit.iml" filepath="$PROJECT_DIR$/GymSuit/GymSuit.iml" />
       <module fileurl="file://$PROJECT_DIR$/MakePrime/MakePrime.iml" filepath="$PROJECT_DIR$/MakePrime/MakePrime.iml" />
