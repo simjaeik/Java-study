@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.TreeSet;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -76,6 +76,21 @@ class NoSameName {
             prev=n;
         }
 
+        return answer;
+    }
+}
+
+class DivableArr {
+    public ArrayList<Integer> solution(int[] arr, int divisor) {
+        ArrayList<Integer> answer = new ArrayList<>();
+
+        for(int n : arr){
+            if(n%divisor==0) answer.add(n);
+        }
+
+        Collections.sort(answer);
+
+        if(answer.isEmpty()) answer.add(-1);
         return answer;
     }
 }
