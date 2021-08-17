@@ -1,13 +1,13 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
-        NoSameName s = new NoSameName();
+        SortMyString s = new SortMyString();
 
-        int [] list = {1,1,2,3,3,4,2,3,1,1,0,0,2,1};
-        System.out.println(s.solution(list));
+        String [] list = {"abce", "abcd", "cdx"};
+        System.out.println(s.solution(list, 2));
     }
 }
 
@@ -91,6 +91,35 @@ class DivableArr {
         Collections.sort(answer);
 
         if(answer.isEmpty()) answer.add(-1);
+        return answer;
+    }
+}
+
+class SumBetweenTwoNums {
+    public long solution(int a, int b) {
+        long answer = 0;
+
+        for(int i = a; i<=b; i++) answer+=i;
+
+        return answer;
+    }
+}
+
+class SortMyString {
+    public ArrayList<String> solution(String[] strings, int n) {
+        ArrayList<String> answer = new ArrayList<>();
+
+        for(String s : strings) answer.add(s);
+
+        Collections.sort(answer, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if( o1.charAt(n) > o2.charAt(n)) return 1;
+                else if (o1.charAt(n) < o2.charAt(n)) return -1;
+                return o1.compareTo(o2);
+            }
+        });
+
         return answer;
     }
 }
