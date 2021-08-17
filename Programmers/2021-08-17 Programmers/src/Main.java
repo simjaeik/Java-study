@@ -1,10 +1,13 @@
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        NoSameName s = new NoSameName();
 
-        System.out.println(s.solution("1S2D*3T"));
+        int [] list = {1,1,2,3,3,4,2,3,1,1,0,0,2,1};
+        System.out.println(s.solution(list));
     }
 }
 
@@ -24,7 +27,7 @@ class MidChar {
     }
 }
 
-class Solution {
+class Dart {
     public int solution(String dartResult) {
         int answer = 0;
 
@@ -58,6 +61,19 @@ class Solution {
         for (int a : list)  {
             System.out.println(a);
             answer += a;
+        }
+
+        return answer;
+    }
+}
+class NoSameName {
+    public ArrayList<Integer> solution(int []arr) {
+        ArrayList<Integer> answer = new ArrayList<>();
+
+        int prev = -1;
+        for(int n : arr){
+            if(prev!=n) answer.add(n);
+            prev=n;
         }
 
         return answer;
