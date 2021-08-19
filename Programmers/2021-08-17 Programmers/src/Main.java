@@ -1,15 +1,16 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
-public class Main {
-    public static void main(String[] args) {
-        SortMyString s = new SortMyString();
-
-        String [] list = {"abce", "abcd", "cdx"};
-        System.out.println(s.solution(list, 2));
-    }
-}
+import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Alarm s = new Alarm();
+//
+//        String [] list = {"abce", "abcd", "cdx"};
+//        System.out.println(s.solution(list, 2));
+//    }
+//}
 
 class MidChar {
     public String solution(String s) {
@@ -121,5 +122,30 @@ class SortMyString {
         });
 
         return answer;
+    }
+}
+
+public class Main {
+    public static void main(String[] args){
+        System.out.println(Solution.reverse(1534236469));
+    }
+
+    static class Solution {
+        public static int reverse(int x) {
+            System.out.println(Math.pow(2,31) +"\n"+ x);
+            if( x >= Math.pow(2,31) || x < Math.pow(2,31)*-1) return 0;
+
+            int minus = x < 0 ? -1 : 1;
+            x *= minus;
+
+            int answer = 0;
+
+            while(x > 0){
+                answer = answer*10 + x%10;
+                x /= 10;
+            }
+
+            return answer*minus;
+        }
     }
 }
