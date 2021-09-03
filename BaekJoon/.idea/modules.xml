@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/FlyMeToTheAlphaCentauri/FlyMeToTheAlphaCentauri.iml" filepath="$PROJECT_DIR$/FlyMeToTheAlphaCentauri/FlyMeToTheAlphaCentauri.iml" />
       <module fileurl="file://$PROJECT_DIR$/GroupWordChecker/GroupWordChecker.iml" filepath="$PROJECT_DIR$/GroupWordChecker/GroupWordChecker.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnailWantUp/SnailWantUp.iml" filepath="$PROJECT_DIR$/SnailWantUp/SnailWantUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringSet/StringSet.iml" filepath="$PROJECT_DIR$/StringSet/StringSet.iml" />
     </modules>
   </component>
 </project>
