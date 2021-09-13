@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2021-08-17 Programmers/2021-08-17 Programmers.iml" filepath="$PROJECT_DIR$/2021-08-17 Programmers/2021-08-17 Programmers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022P1/2022P1.iml" filepath="$PROJECT_DIR$/2022P1/2022P1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022P2/2022P2.iml" filepath="$PROJECT_DIR$/2022P2/2022P2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022P3/2022P3.iml" filepath="$PROJECT_DIR$/2022P3/2022P3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022P4/2022P4.iml" filepath="$PROJECT_DIR$/2022P4/2022P4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022P5/2022P5.iml" filepath="$PROJECT_DIR$/2022P5/2022P5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022P6/2022P6.iml" filepath="$PROJECT_DIR$/2022P6/2022P6.iml" />
       <module fileurl="file://$PROJECT_DIR$/AddPlusMinus/AddPlusMinus.iml" filepath="$PROJECT_DIR$/AddPlusMinus/AddPlusMinus.iml" />
       <module fileurl="file://$PROJECT_DIR$/BruteForce/BruteForce.iml" filepath="$PROJECT_DIR$/BruteForce/BruteForce.iml" />
       <module fileurl="file://$PROJECT_DIR$/Budget/Budget.iml" filepath="$PROJECT_DIR$/Budget/Budget.iml" />
