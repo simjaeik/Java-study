@@ -8,12 +8,14 @@
       <module fileurl="file://$PROJECT_DIR$/ChessRePaint/ChessRePaint.iml" filepath="$PROJECT_DIR$/ChessRePaint/ChessRePaint.iml" />
       <module fileurl="file://$PROJECT_DIR$/CroatiaAlpha/CroatiaAlpha.iml" filepath="$PROJECT_DIR$/CroatiaAlpha/CroatiaAlpha.iml" />
       <module fileurl="file://$PROJECT_DIR$/DirectorShom/DirectorShom.iml" filepath="$PROJECT_DIR$/DirectorShom/DirectorShom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fibonachi/Fibonachi.iml" filepath="$PROJECT_DIR$/Fibonachi/Fibonachi.iml" />
       <module fileurl="file://$PROJECT_DIR$/FindBunSu/FindBoonSu.iml" filepath="$PROJECT_DIR$/FindBunSu/FindBoonSu.iml" />
       <module fileurl="file://$PROJECT_DIR$/FindRoute/FindRoute.iml" filepath="$PROJECT_DIR$/FindRoute/FindRoute.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlyMeToTheAlphaCentauri/FlyMeToTheAlphaCentauri.iml" filepath="$PROJECT_DIR$/FlyMeToTheAlphaCentauri/FlyMeToTheAlphaCentauri.iml" />
       <module fileurl="file://$PROJECT_DIR$/GroupWordChecker/GroupWordChecker.iml" filepath="$PROJECT_DIR$/GroupWordChecker/GroupWordChecker.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnailWantUp/SnailWantUp.iml" filepath="$PROJECT_DIR$/SnailWantUp/SnailWantUp.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringSet/StringSet.iml" filepath="$PROJECT_DIR$/StringSet/StringSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
