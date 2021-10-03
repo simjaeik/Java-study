@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/NewsClustering/NewsClustering.iml" filepath="$PROJECT_DIR$/NewsClustering/NewsClustering.iml" />
       <module fileurl="file://$PROJECT_DIR$/NoMaratoner/NoMaratoner.iml" filepath="$PROJECT_DIR$/NoMaratoner/NoMaratoner.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenChat/OpenChat.iml" filepath="$PROJECT_DIR$/OpenChat/OpenChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PairAndRemove/PairAndRemove.iml" filepath="$PROJECT_DIR$/PairAndRemove/PairAndRemove.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhoneCatMon/PhoneCatMon.iml" filepath="$PROJECT_DIR$/PhoneCatMon/PhoneCatMon.iml" />
       <module fileurl="file://$PROJECT_DIR$/PressKeyPad/PressKeyPad.iml" filepath="$PROJECT_DIR$/PressKeyPad/PressKeyPad.iml" />
       <module fileurl="file://$PROJECT_DIR$/Product/Product.iml" filepath="$PROJECT_DIR$/Product/Product.iml" />
