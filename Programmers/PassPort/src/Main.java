@@ -2,36 +2,29 @@ import java.util.*;
 
 class Solution {
     public long solution(int n, int[] times) {
-        long answer = 1000000000;
-
         Arrays.sort(times);
 
-        long start = times[0];
-        long end = start * n;
+        return sol(times, (long)n, times[0], (long) times[0] * n);
+    }
 
-        while(start <= end){
-            long mid = (start+end)/2;
-            long curNum = mid;
-            long count =0;
-            for(int i=0; i<times.length; i++){
-                count += mid/times[i];
-                if(count > n){
-                    if((start == end) && (answer > mid)){
-                        answer = mid;
-                    }
-                    end = mid-1;
-                    break;
-                }
-            }
-            if(count < n){
-                start = mid+1;
-            }else if(count==n){
-                answer = mid;
-                end = mid-1;
+    public static long sol(int[] times, long n, long start, long end) {
+
+        if (start == end) {
+            return start;
+        }
+        long mid = (start + end) / 2;
+        long count = 0;
+        for (int time : times) {
+            count += mid / time;
+            if(count > n){
+                return sol(times, n, start, mid );
             }
         }
 
-        return answer;
+        if (count < n) {
+            return sol(times, n, mid + 1, end);
+        } else {
+            return sol(times, n, start, mid );
+        }
     }
-
 }
