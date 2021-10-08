@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/RobotCleaner/RobotCleaner.iml" filepath="$PROJECT_DIR$/RobotCleaner/RobotCleaner.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnailWantUp/SnailWantUp.iml" filepath="$PROJECT_DIR$/SnailWantUp/SnailWantUp.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringSet/StringSet.iml" filepath="$PROJECT_DIR$/StringSet/StringSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextTranslation/TextTranslation.iml" filepath="$PROJECT_DIR$/TextTranslation/TextTranslation.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
